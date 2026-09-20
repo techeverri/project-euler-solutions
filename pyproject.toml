@@ -1,0 +1,15 @@
+[project]
+name = "project-euler-solutions"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "ruff>=0.16.8",
+    "rumdl>=0.2.74",
+]
+
+[tool.rumdl.MD013]
+line-length = 80
+reflow = true
